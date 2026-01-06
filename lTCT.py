@@ -177,7 +177,6 @@ def search_tasks() -> None:
 def main() -> None:
     """Main loop for the CLI todo manager. Handles user input and menu navigation."""
     def get_int(prompt: str) -> int | None:
-        """Read an int from input, returning None on invalid input."""
         try:
             return int(input(prompt))
         except ValueError:
