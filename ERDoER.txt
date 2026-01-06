@@ -1,0 +1,28 @@
+How to run:
+
+1. Make sure you have Python 3.8+ installed.
+2. Run the program in terminal:
+   python lTCT.py
+
+Sample input/output:
+--- Daily Task Manager (oT-oT) ---
+1 - Add new task
+2 - Show all tasks
+3 - Toggle task status
+4 - Delete a task
+5 - Report (done/undone count)
+0 - Exit
+Select an option (0-5): 1
+Task title: Buy milk
+Enter priority (1=High, 2=Medium, 3=Low): 1
+Task added.
+Select an option (0-5): 2
+Tasks:
+1. [ ] Buy milk (Priority: 1)
+Select an option (0-5): 3
+Enter task number to toggle: 1
+Task status updated.
+Select an option (0-5): 5
+Done: 1 | Undone: 0
+Select an option (0-5): 0
+Exiting. Goodbye!
